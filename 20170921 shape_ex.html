@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS allowed only!!</title>
+		<style type="text/css" media="screen">
+		.main-border{
+			width: 700px;
+			height: 400px;
+			margin: auto;
+			background-color: black;
+			position: relative;
+			border-radius: 10%;
+		}
+
+		.green-piece-one{
+			border-bottom: 50px solid lightgreen;
+			border-left: 25px solid transparent;
+			border-right: 25px solid transparent;
+			height: 0px;
+			width: 100px;
+			position: absolute;
+			left: 100px;
+			top: 150px;
+		}
+
+		.green-piece-two{
+			position: absolute;
+			width: 60px;
+			height: 50px;
+	        -webkit-transform: skew(20deg);
+	        -moz-transform: skew(20deg);
+	        -o-transform: skew(20deg);
+			background: green;
+			left: 190px;
+			top: 150px;
+		}
+
+		.green-piece-three{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 30px solid lightgreen;
+			left: 200px;
+			top: 200px;
+		}
+
+		.green-piece-four{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-bottom: 30px solid green;
+			left: 230px;
+			top: 200px;
+		}
+
+		.blue-piece-one{
+			border-top: 50px solid lightblue;
+			border-left: 25px solid transparent;
+			border-right: 25px solid transparent;
+			height: 0px;
+			width: 100px;
+			position: absolute;
+			left: 100px;
+			top: 260px;
+		}
+
+		.blue-piece-two{
+			position: absolute;
+			width: 60px;
+			height: 50px;
+	        -webkit-transform: skew(-20deg);
+	        -moz-transform: skew(-20deg);
+	        -o-transform: skew(-20deg);
+			background: blue;
+			left: 190px;
+			top: 260px;
+		}
+
+		.blue-piece-three{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-bottom: 30px solid lightblue;
+			left: 200px;
+			top: 230px;
+		}
+
+		.blue-piece-four{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 30px solid blue;
+			left: 230px;
+			top: 230px;
+		}
+
+
+		.blue-piece-five{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 30px solid blue;
+			left: 260px;
+			top: 200px;
+		}
+
+		.blue-piece-six{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 25px solid transparent;
+			border-right: 25px solid transparent;
+			border-bottom: 25px solid lightblue;
+			left: 295px;
+			top: 200px;
+		}
+
+		.white-piece-one{
+			border-bottom: 50px solid grey;
+			border-left: 25px solid transparent;
+			border-right: 25px solid transparent;
+			height: 0px;
+			width: 100px;
+			position: absolute;
+			left: 380px;
+			top: 150px;
+		}
+
+		.white-piece-two{
+			position: absolute;
+			width: 60px;
+			height: 50px;
+	        -webkit-transform: skew(-20deg);
+	        -moz-transform: skew(-20deg);
+	        -o-transform: skew(-20deg);
+			background: white;
+			left: 390px;
+			top: 150px;
+		}
+
+		.white-piece-three{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 30px solid grey;
+			left: 380px;
+			top: 200px;
+		}
+
+		.white-piece-four{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-bottom: 30px solid white;
+			left: 350px;
+			top: 200px;
+		}
+
+		.white-piece-five{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-bottom: 30px solid white;
+			left: 320px;
+			top: 230px;
+		}
+
+		.white-piece-six{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 25px solid transparent;
+			border-right: 25px solid transparent;
+			border-top: 25px solid grey;
+			left: 295px;
+			top: 235px;
+		}
+
+		.orange-piece-one{
+			border-top: 50px solid red;
+			border-left: 25px solid transparent;
+			border-right: 25px solid transparent;
+			height: 0px;
+			width: 100px;
+			position: absolute;
+			left: 380px;
+			top: 260px;
+		}
+
+		.orange-piece-two{
+			position: absolute;
+			width: 60px;
+			height: 50px;
+	        -webkit-transform: skew(25deg);
+	        -moz-transform: skew(25deg);
+	        -o-transform: skew(25deg);
+			background: orange;
+			left: 390px;
+			top: 260px;
+		}
+
+		.orange-piece-three{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-bottom: 30px solid red;
+			left: 380px;
+			top: 230px;
+		}
+
+		.orange-piece-four{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-left: 30px solid transparent;
+			border-right: 30px solid transparent;
+			border-top: 30px solid orange;
+			left: 350px;
+			top: 230px;
+		}
+
+		.letter-part-one{
+			position: absolute;
+			width: 5px;
+			height: 25px;
+			background-color: white;
+			left: 50px;
+			top: 50px;
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="main-border">
+			<div class="green">
+				<div class="green-piece-one"></div>
+				<div class="green-piece-two"></div>
+				<div class="green-piece-three"></div>
+				<div class="green-piece-four"></div>
+			</div>	
+
+			<div class="blue">
+				<div class="blue-piece-one"></div>
+				<div class="blue-piece-two"></div>
+				<div class="blue-piece-three"></div>
+				<div class="blue-piece-four"></div>
+				<div class="blue-piece-five"></div>
+				<div class="blue-piece-six"></div>
+		</div>	
+
+		<div class="white">
+			<div class="white-piece-one"></div>
+			<div class="white-piece-two"></div>
+			<div class="white-piece-three"></div>
+			<div class="white-piece-four"></div>
+			<div class="white-piece-five"></div>
+			<div class="white-piece-six"></div>
+		</div>
+
+		<div class="orange">
+			<div class="orange-piece-one"></div>
+			<div class="orange-piece-two"></div>
+			<div class="orange-piece-three"></div>
+			<div class="orange-piece-four"></div>
+		</div>		
+
+		<div class="letter-part-one"></div>
+
+	</body>
+</html>
